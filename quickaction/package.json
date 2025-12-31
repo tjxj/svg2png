@@ -1,0 +1,15 @@
+{
+    "name": "svg-to-png-quickaction",
+    "version": "1.0.0",
+    "description": "macOS Quick Action - SVG to PNG 转换器",
+    "main": "convert.js",
+    "bin": {
+        "svg2png": "./convert.js"
+    },
+    "scripts": {
+        "convert": "node convert.js"
+    },
+    "dependencies": {
+        "puppeteer": "^21.6.1"
+    }
+}
